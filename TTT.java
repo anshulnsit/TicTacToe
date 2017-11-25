@@ -1,5 +1,3 @@
-package Lecture_25;
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.GridLayout;
@@ -41,7 +39,6 @@ public class TTT extends JFrame implements ActionListener{
 		for(int i=0;i<BOARD_SIZE;i++){
 			for(int j=0;j<BOARD_SIZE;j++){
 				JButton button = new JButton("");
-//				button.setBackground(Color.white);
 				button.setFont(font);
 				button.addActionListener(this);
 				board[i][j] = button;
